@@ -9,6 +9,8 @@ public class TriangleSidesValidator {
             } else {
                 System.out.println("it's not a triangle");
             }
+        } else {
+            System.out.println("it's not a triangle");
         }
     }
 }
