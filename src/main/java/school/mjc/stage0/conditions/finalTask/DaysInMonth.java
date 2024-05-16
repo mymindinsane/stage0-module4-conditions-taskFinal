@@ -6,6 +6,8 @@ public class DaysInMonth {
             if (year % 4 == 0 && month == 2) {
                 if ((year % 100 != 0) || (year % 400 == 0)) {
                     System.out.println(29);
+                } else {
+                    System.out.println(28);
                 }
             } else {
                 switch (month) {

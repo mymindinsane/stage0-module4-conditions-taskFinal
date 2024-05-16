@@ -9,9 +9,9 @@ public class CoordinatePane {
         } else if (x >= 0 && y >= 0){
             System.out.println("first");
         } else if (x <= 0 && y <= 0){
-            System.out.println("fourth");
-        } else {
             System.out.println("third");
+        } else {
+            System.out.println("fourth");
         }
 
     }
